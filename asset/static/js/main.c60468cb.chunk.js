@@ -7429,7 +7429,7 @@
                 },
                 xo = {};
             var Co = {
-                    title: "Без названия",
+                    title: "График",
                     versionAtCreation: "1.3.0",
                     creationDate: JSON.stringify(new Date)
                 },
@@ -7525,7 +7525,8 @@
                         },
                         "axis-x": {
                             type: "AXIS",
-                            label: "x"
+                            label: "x",
+                            description: "ОСЬ"
                         },
                         "axis-y": {
                             type: "AXIS",
