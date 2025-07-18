@@ -3901,7 +3901,8 @@
                 rn = {
                     label: {
                         inputType: "text",
-                        defaultValue: ""
+                        defaultValue: "",
+                        label: "Ярлык"
                     },
                     labelVisible: {
                         inputType: "boolean",
@@ -3933,7 +3934,8 @@
                     scale: {
                         inputType: "math",
                         defaultValue: "1",
-                        isPrimary: !0
+                        isPrimary: !0,
+                        label: "Масштаб"
                     },
                     labelVisible: {
                         inputType: "boolean",
@@ -3948,11 +3950,12 @@
                     size: {
                         inputType: "math",
                         defaultValue: "2",
-                        label: "размер"
+                        label: "Размер"
                     },
                     width: {
                         inputType: "math",
-                        defaultValue: "1"
+                        defaultValue: "1",
+                        label: "Ширина"
                     }
                 }),
                 on = Object(o.a)(Object(o.a)({}, nn), {
@@ -3973,7 +3976,8 @@
                     },
                     snap: {
                         inputType: "boolean",
-                        defaultValue: !1
+                        defaultValue: !1,
+                        label: "Алгоритм SNAP"
                     }
                 }),
                 cn = {
@@ -3986,26 +3990,30 @@
                     size: {
                         inputType: "math",
                         defaultValue: "16",
-                        label: "размер"
+                        label: "Размер"
                     }
                 },
                 sn = Object(o.a)(Object(o.a)(Object(o.a)({}, nn), rn), cn),
                 ln = {
                     size: {
                         inputType: "math",
-                        defaultValue: "6"
+                        defaultValue: "6",
+                        label: "Размер"
                     },
                     width: {
                         inputType: "math",
-                        defaultValue: "4"
+                        defaultValue: "4",
+                        label: "Ширина"
                     },
                     start: {
                         inputType: "boolean",
-                        defaultValue: !1
+                        defaultValue: !1,
+                        label: "Стрелка в начале"
                     },
                     end: {
                         inputType: "boolean",
-                        defaultValue: !1
+                        defaultValue: !1,
+                        label: "Стрелка в конце"
                     }
                 },
                 un = {
@@ -4029,7 +4037,8 @@
                     },
                     end: {
                         inputType: "boolean",
-                        defaultValue: !0
+                        defaultValue: !0,
+                        label: "Стрелка в конце"
                     }
                 }),
                 hn = Object(o.a)(Object(o.a)(Object(o.a)({}, nn), ln), {
@@ -4045,7 +4054,8 @@
                     },
                     samples: {
                         inputType: "math",
-                        defaultValue: "128"
+                        defaultValue: "128",
+                        label: "Полигоны"
                     }
                 }),
                 fn = {
@@ -4192,11 +4202,13 @@
                     },
                     samples: {
                         inputType: "math",
-                        defaultValue: "20"
+                        defaultValue: "20",
+                        label: "Полигоны"
                     },
                     opacity: {
                         inputType: "math",
-                        defaultValue: "1"
+                        defaultValue: "1",
+                        label: "Прозрачность"
                     }
                 }),
                 jn = Object(o.a)(Object(o.a)(Object(o.a)(Object(o.a)({}, nn), ln), On), {
@@ -4207,19 +4219,23 @@
                     },
                     samples: {
                         inputType: "math",
-                        defaultValue: "[10, 10, 5]"
+                        defaultValue: "[10, 10, 5]",
+                        label: "Модель"
                     },
                     scale: {
                         inputType: "math",
-                        defaultValue: "1"
+                        defaultValue: "1",
+                        label: "Масштаб"
                     },
                     width: {
                         inputType: "math",
-                        defaultValue: "2"
+                        defaultValue: "2",
+                        label: "Ширина"
                     },
                     end: {
                         inputType: "boolean",
-                        defaultValue: !0
+                        defaultValue: !0,
+                        label: "Стрелка в конце"
                     }
                 }),
                 xn = {
@@ -6625,7 +6641,7 @@
                     return Object(f.a)(n, [{
                         key: "render",
                         value: function() {
-                            var e, t = void 0 === this.props.settingsTitle ? "".concat(Ot(this.props.type), " Settings") : this.props.settingsTitle,
+                            var e, t = void 0 === this.props.settingsTitle ? "".concat("Настройка") : this.props.settingsTitle,
                                 n = this.props.sidePanelContent || r.createElement(Na, {
                                     id: this.props.id
                                 });
@@ -7193,7 +7209,7 @@
                         type: "VARIABLE",
                         name: "f(x)",
                         value: "e^x",
-                        description: "Переменная или функция"
+                        description: "Переменная/функция"
                     },
                     uiComponent: function(e) {
                         Object(v.a)(n, e);
@@ -7251,9 +7267,9 @@
                                 type: "BOOLEAN_VARIABLE"
                             }, a.a.createElement(Ar, null, a.a.createElement(Rr, null, a.a.createElement(Ir, null, "Имя:"), a.a.createElement(gr, {
                                 parentId: this.props.id
-                            })), a.a.createElement(Rr, null, a.a.createElement(Ir, null, "Value:"), a.a.createElement(ia.a, {
-                                checkedChildren: "On",
-                                unCheckedChildren: "Off",
+                            })), a.a.createElement(Rr, null, a.a.createElement(Ir, null, "Значение:"), a.a.createElement(ia.a, {
+                                checkedChildren: "Вкл",
+                                unCheckedChildren: "Выкл",
                                 checked: this.props.value,
                                 onChange: this.onChange
                             }))))
@@ -7521,37 +7537,43 @@
                     mathSymbols: {},
                     mathGraphics: {
                         camera: {
-                            type: "CAMERA"
+                            type: "CAMERA",
+                            description: "Камера"
                         },
                         "axis-x": {
                             type: "AXIS",
                             label: "x",
-                            description: "ОСЬ"
+                            description: "Ось"
                         },
                         "axis-y": {
                             type: "AXIS",
                             label: "y",
-                            axis: "y"
+                            axis: "y",
+                            description: "Ось"
                         },
                         "axis-z": {
                             type: "AXIS",
                             label: "z",
                             axis: "z",
-                            scale: "1/2"
+                            scale: "1/2",
+                            description: "Ось"
                         },
                         "grid-xy": {
                             type: "GRID",
-                            axes: "xy"
+                            axes: "xy",
+                            description: "Сетка"
                         },
                         "grid-yz": {
                             type: "GRID",
                             visible: !1,
-                            axes: "yz"
+                            axes: "yz",
+                            description: "Сетка"
                         },
                         "grid-zx": {
                             type: "GRID",
                             visible: !1,
-                            axes: "zx"
+                            axes: "zx",
+                            description: "Сетка"
                         }
                     },
                     sliders: {}
