@@ -19,17 +19,17 @@
   "mathGraphics": {
     "1": {
       "type": "VECTOR",
-      "description": "Vector:\nBy default, vectors have their tails at the origin"
+      "description": "Вектор:\nBy default, vectors have their tails at the origin"
     },
     "2": {
       "type": "VECTOR",
-      "description": "Vector:\nA different tail can be specified in object settings. Open object settings by pressing the gear.",
+      "description": "Вектор:\nA different tail can be specified in object settings. Open object settings by pressing the gear.",
       "color": "#f1c40f",
       "tail": "\\left[-3,2,1\\right]"
     },
     "3": {
       "type": "VECTOR",
-      "description": "Vector:\nThe tail can  position can contain variables  or functions.\nHere the tail has coordinates [X,-2,-1]",
+      "description": "Вектор:\nThe tail can  position can contain variables  or functions.\nHere the tail has coordinates [X,-2,-1]",
       "color": "#9b59b6",
       "components": "\\left[3,\\ 2,\\ 1\\right]",
       "tail": "\\left[X,\\ -2,\\ -1\\right]"
