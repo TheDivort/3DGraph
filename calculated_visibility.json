@@ -46,27 +46,27 @@
       "relativeLookAt": [0, 0, 0]
     },
     "axis-x": {
-      "type": "ОСЬ",
+      "type": "AXIS",
       "useCalculatedVisibility": true
     },
     "axis-y": {
-      "type": "ОСЬ",
+      "type": "AXIS",
       "useCalculatedVisibility": true
     },
     "axis-z": {
-      "type": "ОСЬ",
+      "type": "AXIS",
       "useCalculatedVisibility": true
     },
     "grid-xy": {
-      "type": "СЕТКА",
+      "type": "GRID",
       "useCalculatedVisibility": true
     },
     "grid-yz": {
-      "type": "СЕТКА",
+      "type": "GRID",
       "useCalculatedVisibility": true
     },
     "grid-zx": {
-      "type": "СЕТКА",
+      "type": "GRID",
       "useCalculatedVisibility": true
     }
   },
