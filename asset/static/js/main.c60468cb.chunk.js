@@ -7226,9 +7226,9 @@
                 }),
                 $i = {
                     type: "BOOLEAN_VARIABLE",
-                    name: "Логический тумблер",
+                    name: "a",
                     value: !0,
-                    description: "a"
+                    description: "Логический тумблер"
                 },
                 Ki = function(e) {
                     Object(v.a)(n, e);
