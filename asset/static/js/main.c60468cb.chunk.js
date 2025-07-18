@@ -6747,6 +6747,7 @@
                 }(r.PureComponent),
                 ui = new Ct({
                     type: "VECTOR",
+                    description: "Вектор",
                     metadata: pn,
                     uiComponent: li,
                     mathboxComponent: ht
