@@ -7228,7 +7228,7 @@
                     type: "BOOLEAN_VARIABLE",
                     name: "Переключатель",
                     value: !0,
-                    description: "Переключатель"
+                    description: "a"
                 },
                 Ki = function(e) {
                     Object(v.a)(n, e);
