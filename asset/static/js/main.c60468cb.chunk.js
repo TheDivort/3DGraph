@@ -7523,16 +7523,16 @@
                             type: "CAMERA"
                         },
                         "axis-x": {
-                            type: "ОСЬ",
+                            type: "AXIS",
                             label: "x"
                         },
                         "axis-y": {
-                            type: "ОСЬ",
+                            type: "AXIS",
                             label: "y",
                             axis: "y"
                         },
                         "axis-z": {
-                            type: "ОСЬ",
+                            type: "AXIS",
                             label: "z",
                             axis: "z",
                             scale: "1/2"
