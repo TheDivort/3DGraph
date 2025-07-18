@@ -7226,7 +7226,7 @@
                 }),
                 $i = {
                     type: "BOOLEAN_VARIABLE",
-                    name: "Переключатель",
+                    name: "Логический тумблер",
                     value: !0,
                     description: "a"
                 },
