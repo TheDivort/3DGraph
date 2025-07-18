@@ -7226,9 +7226,9 @@
                 }),
                 $i = {
                     type: "BOOLEAN_VARIABLE",
-                    name: "switch",
+                    name: "Переключатель",
                     value: !0,
-                    description: "Тумблер"
+                    description: "Переключатель"
                 },
                 Ki = function(e) {
                     Object(v.a)(n, e);
@@ -7248,7 +7248,7 @@
                             return a.a.createElement(en, {
                                 id: this.props.id,
                                 type: "BOOLEAN_VARIABLE"
-                            }, a.a.createElement(Ar, null, a.a.createElement(Rr, null, a.a.createElement(Ir, null, "Name:"), a.a.createElement(gr, {
+                            }, a.a.createElement(Ar, null, a.a.createElement(Rr, null, a.a.createElement(Ir, null, "Имя:"), a.a.createElement(gr, {
                                 parentId: this.props.id
                             })), a.a.createElement(Rr, null, a.a.createElement(Ir, null, "Value:"), a.a.createElement(ia.a, {
                                 checkedChildren: "On",
